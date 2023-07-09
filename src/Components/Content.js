@@ -1,7 +1,9 @@
-import Sidebar from "./Components/Sidebar.js";
+import Sidebar from "./Content/Sidebar.js";
 
 export default function Content() {
   return (
-  
-  <Sidebar></Sidebar>);
+    <main>
+      <Sidebar></Sidebar>
+    </main>
+  );
 }

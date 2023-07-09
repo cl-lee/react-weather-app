@@ -4,7 +4,6 @@ export default function Sidebar() {
       <h2 id="form-heading" className="mt-1 h3 form-label">
         Search for a City:
       </h2>
-      
       <form id="search-form" class="form">
         <div class="form-inline form-group">
           <div class="input-group">
