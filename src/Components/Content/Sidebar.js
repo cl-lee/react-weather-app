@@ -1,8 +1,11 @@
 export default function Sidebar() {
+  function checkInput() {
+    
+  }
+    
   return (
-    // check column setting
-    <aside className="col-start-1 col-end-4 pb-3">
-      <h2 id="form-heading" className="mt-1 h3 form-label">
+    <aside className="pb-3">
+      <h2 id="form-heading" className="col-start-1 col-end-4 mt-1 h3 form-label">
         Search for a City:
       </h2>
       <form id="search-form" className="form">
